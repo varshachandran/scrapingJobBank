@@ -6,12 +6,12 @@ A web scraper that extracts job listings from Job Bank Canada and stores them in
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-blue)
 
 ## How It Works
--Mermaid Diagram
--graph TD
--A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
--B --> C[Extract Job Data]
--C --> D[Write to CSV]
--C --> E[Store in MongoDB]
+- Mermaid Diagram
+- graph TD
+- A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
+- B --> C[Extract Job Data]
+- C --> D[Write to CSV]
+- C --> E[Store in MongoDB]
 
 ## Features 
 - Scrapes job titles, companies, locations, salaries, and dates
@@ -31,8 +31,8 @@ A web scraper that extracts job listings from Job Bank Canada and stores them in
 
 ## Prerequisites
 
-    -Node.js 18+
-    -MongoDB Atlas account
+- Node.js 18+
+- MongoDB Atlas account
 
 ## Installation 
 
@@ -80,16 +80,16 @@ A web scraper that extracts job listings from Job Bank Canada and stores them in
 ## Error Handling
 
   The script includes:
-  -HTTP request error checking
-  -MongoDB connection try-catch
-  -CSV write stream error listener
+  - HTTP request error checking
+  - MongoDB connection try-catch
+  - CSV write stream error listener
 
 ## Dependencies 
 
-   -cheerio - HTML parsing
-   -mongodb - Official MongoDB driver
-   -dotenv - Environment variables
-   -request - HTTP requests to fetch job listings 
+   - cheerio - HTML parsing
+   - mongodb - Official MongoDB driver
+   - dotenv - Environment variables
+   - request - HTTP requests to fetch job listings 
 
 ## License
 
