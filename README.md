@@ -3,7 +3,7 @@
 A web scraper that extracts job listings from Job Bank Canada and stores them in MongoDB + CSV.
 
 ![Node.js](https://img.shields.io/badge/Node.js-14.x+-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-blue)🔍 How It Works
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-blue)
 
 ## How It Works
 
@@ -14,7 +14,7 @@ graph TD
     C --> D[Write to CSV]
     C --> E[Store in MongoDB]
 
-## Features ✨
+## Features 
 - Scrapes job titles, companies, locations, salaries, and dates
 - Stores data in MongoDB Atlas (NoSQL database)
 - Generates a CSV backup file
@@ -23,18 +23,18 @@ graph TD
 ## Data Structure
 
 Field	        Selector	        Example Output
-Job Title	 .noctitle	        "Full Stack Developer"
-Link	        a[href]	        "/job/12345"
-Company	 .business	        "Tech Corp Inc."
-Salary	        .salary	        "$85,000/year"
 
-🚀 Quick Start
+Job Title	    .noctitle	        "Full Stack Developer"
+Link	        a[href]	            "/job/12345"
+Company	        .business	        "Tech Corp Inc."
+Salary	        .salary	            "$85,000/year"
+
 ## Prerequisites
 
     Node.js 18+
     MongoDB Atlas account
 
-## Installation 💻
+## Installation 
 
 1. **Clone the repository**
    
@@ -50,7 +50,7 @@ Salary	        .salary	        "$85,000/year"
    Create a .env file:
     MONGODB_URI=your_mongodb_atlas_connection_string
 
-4. **Usage 🛠️**
+4. **Usage**
 
    Input:
    node scraper.js
