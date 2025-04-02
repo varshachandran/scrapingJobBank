@@ -22,12 +22,13 @@ graph TD
 
 ## Data Structure
 
-Field	        Selector	        Example Output
+|     Field      |  selector    | example Outp |
+|----------------|--------------|--------------|
+| Job Title      | .noctitle    | "Developer"  |
+| Link           | a[href]      | "/job/12345" |
+| Company        | .business    | "Tech Inc"   |
+| Salary         | .salary	    | "$85,000"    |
 
-Job Title	    .noctitle	        "Full Stack Developer"
-Link	        a[href]	            "/job/12345"
-Company	        .business	        "Tech Corp Inc."
-Salary	        .salary	            "$85,000/year"
 
 ## Prerequisites
 
