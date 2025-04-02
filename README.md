@@ -6,7 +6,7 @@ How to Use:
 Run the following command to install the required dependencies:
 
        npm install request cheerio mongodb
-3.	Run the Script:
+2.	Run the Script:
    
 Execute the script using Node.js:
 

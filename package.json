@@ -1,0 +1,17 @@
+{
+  "name": "scrapingjobbank",
+  "version": "1.0.0",
+  "description": "This repository contains scripts for web scraping job listings from the Job Bank Canada website and storing the data in both CSV and MongoDB formats. How to Use: 1.\tInstall Dependencies:",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "node --force-node-api-uncaught-exceptions-policy=true scraper.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.15.0",
+    "request": "^2.88.2"
+  }
+}
