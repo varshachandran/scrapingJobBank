@@ -7,7 +7,7 @@ A web scraper that extracts job listings from Job Bank Canada and stores them in
 
 ## How It Works
 
-Mermaid Diagram
+-Mermaid Diagram
 -graph TD
     -A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
     -B --> C[Extract Job Data]
