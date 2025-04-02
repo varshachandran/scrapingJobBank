@@ -85,7 +85,7 @@ graph TD
   MongoDB connection try-catch
   CSV write stream error listener
 
-## Dependencies 📦
+## Dependencies 
 
    cheerio - HTML parsing
    mongodb - Official MongoDB driver
@@ -94,6 +94,6 @@ graph TD
 
 ## License
 
-  MIT License - See LICENSE for details
+This project is licensed under the [MIT License](LICENSE).
 
   
