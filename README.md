@@ -9,10 +9,10 @@ A web scraper that extracts job listings from Job Bank Canada and stores them in
 
 -Mermaid Diagram
 -graph TD
-    -A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
-    -B --> C[Extract Job Data]
-    -C --> D[Write to CSV]
-    -C --> E[Store in MongoDB]
+-A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
+-B --> C[Extract Job Data]
+-C --> D[Write to CSV]
+-C --> E[Store in MongoDB]
 
 ## Features 
 - Scrapes job titles, companies, locations, salaries, and dates
