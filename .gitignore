@@ -1,1 +1,4 @@
-node_modeules
+node_modeulesnode_modules/
+.env
+.DS_Store
+*.log
