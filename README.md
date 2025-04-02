@@ -6,8 +6,8 @@ A web scraper that extracts job listings from Job Bank Canada and stores them in
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-blue)
 
 ## How It Works
-- Mermaid Diagram
-- graph TD
+Mermaid Diagram
+graph TD
 - A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
 - B --> C[Extract Job Data]
 - C --> D[Write to CSV]
