@@ -8,11 +8,11 @@ A web scraper that extracts job listings from Job Bank Canada and stores them in
 ## How It Works
 
 Mermaid Diagram
-graph TD
-    A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
-    B --> C[Extract Job Data]
-    C --> D[Write to CSV]
-    C --> E[Store in MongoDB]
+-graph TD
+    -A[Scrape Job Bank Canada] --> B[Parse HTML with Cheerio]
+    -B --> C[Extract Job Data]
+    -C --> D[Write to CSV]
+    -C --> E[Store in MongoDB]
 
 ## Features 
 - Scrapes job titles, companies, locations, salaries, and dates
@@ -32,8 +32,8 @@ graph TD
 
 ## Prerequisites
 
-    Node.js 18+
-    MongoDB Atlas account
+    -Node.js 18+
+    -MongoDB Atlas account
 
 ## Installation 
 
@@ -81,16 +81,16 @@ graph TD
 ## Error Handling
 
   The script includes:
-  HTTP request error checking
-  MongoDB connection try-catch
-  CSV write stream error listener
+  -HTTP request error checking
+  -MongoDB connection try-catch
+  -CSV write stream error listener
 
 ## Dependencies 
 
-   cheerio - HTML parsing
-   mongodb - Official MongoDB driver
-   dotenv - Environment variables
-   request - HTTP requests to fetch job listings 
+   -cheerio - HTML parsing
+   -mongodb - Official MongoDB driver
+   -dotenv - Environment variables
+   -request - HTTP requests to fetch job listings 
 
 ## License
 
